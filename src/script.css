@@ -198,4 +198,11 @@ main p {
     grid-gap: 10px;
     grid-template-columns: 1fr;
   }
+
+  .img-responsive {
+    display: none;
+  }
+  .primary-section-responsive {
+    text-align: center;
+  }
 }
