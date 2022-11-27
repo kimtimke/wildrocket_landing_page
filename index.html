@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Wild Rocket - Landing Page</title>
+    <title>☕️ Wild Rocket - Landing Page</title>
     <link rel="stylesheet" href="src/script.css" />
   </head>
   <body>
@@ -19,7 +19,7 @@
         <h3>FOOD.COFFEE.COCKTAILS.</h3>
         <h1>Wild Rocket</h1>
         <h2>#PFLIPPENLEKKER</h2>
-        <a href="#more" target="_blank" rel="noopener noreferrer">Learn more</a>
+        <a href="#more">Learn more</a>
       </header>
     </div>
     <main>
@@ -32,6 +32,7 @@
           />
         </div>
         <div class="primary-section-responsive">
+          <a name="more"></a>
           <h2>Why wild Rocket?</h2>
           <h3>Wild Rocket te best brasserie</h3>
           <p>This why its the best in Town</p>
@@ -39,6 +40,7 @@
             href="https://drive.google.com/file/d/1ewSaAqeljB8ykET-gLMZSCbAvgsKIKV_/view"
             target="_blank"
             rel="noopener noreferrer"
+            class="btn"
             >Menu</a
           >
         </div>
@@ -55,7 +57,14 @@
               <h4>Best Coffee in Town</h4>
               <p>From Two Beards Coffee</p>
               <h5>baalal</h5>
-              <a href="http://">Learn more</a>
+              <div class="card-footer">
+                <a
+                  href="https://swakopmundcoffeeroasters.com/"
+                  class="btn"
+                  target="_blank"
+                  >Learn more</a
+                >
+              </div>
             </div>
           </div>
           <div class="card">
@@ -66,7 +75,9 @@
               <h4>Flapjacks</h4>
               <p>Thsi is a must have</p>
               <h5>baalal</h5>
-              <a href="http://">Learn more</a>
+              <div class="card-footer">
+                <a href="http://" class="btn" target="_blank">Learn more</a>
+              </div>
             </div>
           </div>
           <div class="card">
@@ -77,13 +88,15 @@
               <h4>Cocktails</h4>
               <p>The best in town made by Pascal</p>
               <h5>baalal</h5>
-              <a href="http://">Learn more</a>
+              <div class="card-footer">
+                <a href="http://" class="btn" target="_blank">Learn more</a>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="secondary">
-        <h2 class="text-center">Where to find us?</h2>
+      <section>
+        <h2 class="text-center">Where to find us</h2>
         <h3 class="text-center">Wild Rocket Cafe</h3>
         <div class="embed-maps">
           <iframe
@@ -97,9 +110,9 @@
           ></iframe>
         </div>
       </section>
-      <section>
-        <h2 class="text-center">Meet the Team</h2>
-        <h3 class="text-center">Check out Instagram</h3>
+      <section class="staff">
+        <h2 class="text-center">Behind the scenes</h2>
+        <h3 class="text-center">Meet the Team</h3>
 
         <div class="instagram-embeds">
           <div class="grid grid-3-columnsplusone">
@@ -963,32 +976,68 @@
     <footer>
       <section class="grid grid-3-columns">
         <div>
-          <h3>More Cafes in Swakopmund</h3>
+          <h3>More cafés to visit</h3>
           <ul>
-            <li>Two Beards COFFEE</li>
-            <li>Slowtown</li>
-            <li>Bojo</li>
+            <li>
+              <a
+                href="https://swakopmundcoffeeroasters.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Two Beards COFFEE</a
+              >
+            </li>
+            <li>
+              <a
+                href="http://slowtowncoffee.com/store-locator/store-swakopmund/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Slowtown coffee</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.google.co.uk/maps/place/Bojos+Caf%C3%A9/@-22.6770426,14.5235305,17z/data=!3m1!4b1!4m5!3m4!1s0x1c7658f0a7c0b1df:0x5c50055ce308ab8a!8m2!3d-22.6770726!4d14.5257166"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Bojo</a
+              >
+            </li>
           </ul>
         </div>
         <div>
           <h3>About me</h3>
           <p>
-            Namibia, Swakopmund is a very smal town withe the best coffee places
+            Hi! My name is Kim and I love café hopping. While I sip on my coffee
+            I love observeing my surroundings. This landing page is dedicated to
+            "wild rocket" my favourite Brasserie in my home town. The food, the
+            coffee, the freshly pressed juices are just one of their expertise.
+            Come visit wild rocket in Swakopmund, Namibia!
           </p>
         </div>
         <div>
           <h3>About this Website</h3>
           <p>
             I created this page as part of my shecodes responsive workshop to
-            develop my coding skills This project was coded bey Kim Timke
-            open-sourced on
+            further develop my coding skills.
             <br />
+            <br />
+            This project was coded by
             <a
-              href="https://github.com/kimtimke/landing-page"
+              href="https://kim-timke.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
+              class="personal-link"
+              >Kim</a
             >
-              GitHub</a
+            and is open-sourced on
+
+            <a
+              href="https://github.com/kimtimke/wildrocket_landing_page"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="personal-link"
+              >GitHub</a
             >
           </p>
         </div>

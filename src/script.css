@@ -55,11 +55,11 @@ header a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
-  color: rgba(39, 32, 68, 1);
+  color: white;
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
-  background-color: white;
+  background-color: #2f493c;
   text-decoration: none;
   padding: 16px 32px 16px 32px;
   margin-top: 32px;
@@ -71,7 +71,12 @@ section {
   margin: 0 auto;
   padding: 100px;
 }
+
 section.secondary {
+  background-color: #f8f8f8;
+}
+
+section.staff {
   background-color: #f8f8f8;
 }
 
@@ -137,6 +142,30 @@ footer li {
   padding: 0;
 }
 
+footer li a {
+  text-decoration: none;
+  color: white;
+}
+footer li a:hover {
+  text-decoration: underline;
+  color: #7152d8;
+  transition: all 100ms ease-in-out;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #2f493c;
+  text-decoration: none;
+}
+
 .text-center {
   text-align: center;
 }
@@ -157,17 +186,17 @@ footer li {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
-.primary-section-responsive a {
+.primary-section-responsive .btn {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
-  color: rgb(212, 209, 223);
+  color: white;
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
-  background-color: rgb(6, 5, 5);
+  background-color: #2f493c;
   text-decoration: none;
-  padding: 16px 32px 16px 32px;
+  padding: 16px 80px 16px 80px;
   margin-top: 32px;
   display: inline-block;
 }
@@ -197,6 +226,9 @@ footer li {
 
 .card-body {
   padding: 30px;
+}
+.personal-link {
+  color: #7152d8;
 }
 
 @media (max-width: 900px) {
