@@ -152,6 +152,15 @@ footer li a:hover {
   transition: all 100ms ease-in-out;
 }
 
+table {
+  border: 1px solid lightgrey;
+  width: 100%;
+}
+
+td {
+  border-top: 1px solid lightgray;
+}
+
 .btn {
   display: block;
   color: white;
