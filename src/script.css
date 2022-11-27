@@ -260,6 +260,9 @@ footer li a:hover {
     font-size: 12px;
     line-height: 24px;
   }
+  footer a {
+    font-size: 12px;
+  }
   section {
     padding: 30px;
   }
