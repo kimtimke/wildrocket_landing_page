@@ -182,10 +182,10 @@ footer li a:hover {
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
+
 .grid-3-columnsplusone {
   grid-template-columns: 1fr 1fr 1fr;
 }
-
 .grid-3-columns {
   grid-template-columns: 1fr 2fr 2fr;
 }
